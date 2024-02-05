@@ -1,4 +1,4 @@
-package org.example.LV3;
+package org.example.LV4;
 
 public class Split_string {
     public static int solution(String s) {
