@@ -11,18 +11,13 @@ public class N7_2869 {
 
         String line = br.readLine();
 
-        int A = Integer.parseInt(line.split(" ")[0]);
-        int B = Integer.parseInt(line.split(" ")[1]);
-        int V = Integer.parseInt(line.split(" ")[2]);
-        int now = 0;
-        int day = 0;
+        int up = Integer.parseInt(line.split(" ")[0]);
+        int down = Integer.parseInt(line.split(" ")[1]);
+        int length = Integer.parseInt(line.split(" ")[2]);
 
-        while(true){
-            day++;
-            now += A;
-            if(now >= V) break;
-            now -= B;
-        }
+        int day = (length - down) / (up - down);
+
+        if ((length - down) % (up - down) != 0) day++;
 
         System.out.println(day);
 
