@@ -1,8 +1,5 @@
 package org.example.baekjoon.stepbystep.LV9_약수_배수와_소수;
 
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.List;
 import java.util.Scanner;
 
 public class Q6_11653 {
@@ -13,12 +10,12 @@ public class Q6_11653 {
         int n = sc.nextInt();
 
         for (int i = 2; i < n; i++) {
-            while(n % i == 0) {
+            while (n % i == 0) {
                 System.out.println(i);
                 n /= i;
             }
         }
-        if (n != 1){
+        if (n != 1) {
             System.out.println(n);
         }
     }
