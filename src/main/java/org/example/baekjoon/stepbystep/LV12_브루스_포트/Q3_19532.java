@@ -19,6 +19,15 @@ public class Q3_19532 {
         int f = Integer.parseInt(st.nextToken());
         // ax + by = c
         // dx + ey = f
+        /*
+        1, 3, -1, 4, 1, 7
+
+        x + 3y = -1
+        4x + y = 7
+
+        (-1 * 1 - 3 * 7) / (1 * 1 - 3 * 4) = (-1 - 21) / (1 - 12) = -22/-11 = 2
+
+         */
 
         int x = (c * e - b * f) / (a * e - b * d);
         int y = (c * d - a * f) / (b * d - a * e);
