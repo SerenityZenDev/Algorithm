@@ -19,12 +19,12 @@ public class Q4_2485 {
         br.close();
         int gcd = 0;
 
-        for (int i = 1; i < size - 1; i++) {
+        for (int i = 0; i < size - 1; i++) {
             int distance = tree[i + 1] - tree[i];
             gcd = findGCD(distance, gcd);
         }
 
-        System.out.println((tree[size - 1] - tree[0])/gcd + 1 - (tree.length ));
+        System.out.print((tree[size - 1] - tree[0]) / gcd + 1 - (tree.length)+ "");
     }
 
     private static int findGCD(int A, int B) {
