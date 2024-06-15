@@ -1,9 +1,9 @@
-package org.example.baekjoon.stepbystep.LV15_약수_배수와_소수_2;
+package org.example.baekjoon.stepbystep.LV16_스택_큐_덱;
 
 import java.io.*;
 import java.util.Stack;
 
-public class Q10_28278 {
+public class Q1_28278 {
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
