@@ -31,13 +31,13 @@ public class Q5_1010 {
         StringTokenizer st;
         StringBuilder sb = new StringBuilder();
 
-        for(int i = 0; i < T; i++) {
+        for (int i = 0; i < T; i++) {
 
             st = new StringTokenizer(br.readLine(), " ");
 
             // M개중 N개를 뽑는 경우이므로 nCr 에서 n = M, r = N이다.
-            int N = Integer.parseInt(st.nextToken());	// N = r
-            int M = Integer.parseInt(st.nextToken());	// M = n
+            int N = Integer.parseInt(st.nextToken());    // N = r
+            int M = Integer.parseInt(st.nextToken());    // M = n
 
             sb.append(dp[M][N]).append('\n');
         }
@@ -45,5 +45,5 @@ public class Q5_1010 {
         System.out.println(sb);
 
     }
-    }
 }
+
