@@ -5,7 +5,7 @@ import java.util.Queue;
 
 public class Q4_다리를지나는트럭 {
     public static void main(String[] args) {
-        System.out.println(solution(100, 100, new int[]{10, 10, 10, 10, 10, 10, 10, 10, 10, 10}));
+        //System.out.println(solution(100, 100, new int[]{10, 10, 10, 10, 10, 10, 10, 10, 10, 10}));
     }
 
 //    public static int solution(int bridge_length, int weight, int[] truck_weights) {
