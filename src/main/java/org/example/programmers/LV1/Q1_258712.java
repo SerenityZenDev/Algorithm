@@ -6,7 +6,7 @@ public class Q1_258712 {
     public static void main(String[] args) {
         String[] friends = {"leo", "kiki", "eden"};
         String[] gifts = {"card", "candy", "candy"};
-        System.out.println(solution(friends, gifts)); // 60000
+        // System.out.println(solution(friends, gifts)); // 60000
     }
 
     public int solution(String[] friends, String[] gifts) {
